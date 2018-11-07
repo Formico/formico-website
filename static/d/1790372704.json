@@ -1,1 +1,0 @@
-{"errors":[{"message":"Invalid regular expression: /*/: Nothing to repeat","locations":[{"line":2,"column":3}],"path":["imageQuery"]}],"data":{"imageQuery":null}}
