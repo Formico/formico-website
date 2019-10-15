@@ -12,7 +12,6 @@ const Splash = ({ data }) => {
     <h1 className="biline">We help startups turn ideas into products.</h1>
     <div className="buttons">
       <CTA text="Contact Us" link="https://formico.typeform.com/to/CvuKzs" />
-      <CTA type="secondary" text="Get Inspired" link="/landing-page-inspiration" />
     </div>
   </div>
   )
