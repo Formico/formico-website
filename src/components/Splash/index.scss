@@ -1,0 +1,65 @@
+@import '../../common/common.scss';
+
+.splash {
+	display: flex;
+	position: relative;
+	@include transform(translate3d(0,0,0));
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding: 0 24px;
+
+	height: 550px;
+
+	@include breakpoint(sm) {
+		height: 500px;
+	}
+
+	.logo {
+		margin-top: 64px;
+		height: 64px;
+	}
+
+	h1.tagline, h1.biline {
+		color: $white;
+		font-weight: normal;
+		display: flex;
+		flex-direction: row;
+		font-family: $font-body;
+	}
+
+	h1.tagline {
+		font-weight: bold;
+		margin-top: 24px;
+		font-size: 32px;
+	}
+
+	h1.biline {
+		font-weight: normal;
+		font-size: 24px;
+	}
+
+	.buttons {
+		margin-top: 32px;
+		display: flex;
+		align-content: center;
+		flex-direction: column;
+
+		@include breakpoint(sm) {
+			flex-direction: row;
+		}
+
+		.button-cta {
+			margin: 0 6px;
+
+			&:nth-child(2) {
+				margin-top: 12px;
+			
+				@include breakpoint(sm) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}

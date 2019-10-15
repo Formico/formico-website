@@ -1,0 +1,41 @@
+@import '../../../common/common.scss';
+
+.team-member {
+	text-align: center;
+	max-width: 200px;
+	margin-bottom: 24px;
+	
+	@include breakpoint(sm) {
+		width: 20%;
+		padding: 12px;
+		margin-bottom: 0;
+	}
+
+	img {
+		width: 100%;
+		margin: auto;
+		fill: $eggplant;
+		text-align: center;
+	}
+	.text {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		h2.name {
+			background: none;
+			color: $eggplant;
+			font-size: $font-size-p;
+			font-family: $font-body;
+			font-weight: bold;
+			margin-bottom: 0;
+		}
+		p.roles {
+			color: $eggplant;
+			font-size: 14px;
+			font-family: $font-body;
+			line-height: $line-height;
+			margin-bottom: 0;
+			text-align: left;
+		}
+	}
+}
