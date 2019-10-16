@@ -8,7 +8,7 @@ class FancyBackground extends React.Component {
     let columns = [];
     const cellTypes = ['filled', 'unfilled'];
 
-    for (let i = 0; i < numCols; i++) {
+    for (let i = 1; i < numCols; i++) {
       let cells = []
 
       for (let j = 0; j < numCells; j++) {
