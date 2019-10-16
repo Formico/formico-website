@@ -38,7 +38,7 @@ class CandyDispenser extends React.Component {
       
     return (
       <div className="candy-dispenser">
-        <h5 className="dispenser" onClick={ this.dispenseCandy }>Dispense Candy <span role="img" aria-label="img">🎰</span></h5>
+        <h5 className="dispenser" onClick={ this.dispenseCandy }><span role="img" aria-label="img" title="Dispense Candy">🎰</span></h5>
         <ul className="candies">{ candyList }</ul>
       </div>
     );

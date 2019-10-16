@@ -1,7 +1,7 @@
 import React from 'react'
 
+import CandyDispenser from '../CandyDispenser';
 import FancyAccents from '../FancyAccents';
-
 import TeamMember from './TeamMember';
 
 import './index.scss'
@@ -65,6 +65,7 @@ const Team = () => (
     <div className="team-members">
       { team }
     </div>
+    <CandyDispenser />
   </div>
 )
 

@@ -9,7 +9,6 @@ import Pricing from '../components/Pricing';
 import TechLove from '../components/TechLove';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import CandyDispenser from '../components/CandyDispenser';
 import Layout from '../layouts';
 
 const IndexPage = ({ ctaUrl }) => (
@@ -23,7 +22,6 @@ const IndexPage = ({ ctaUrl }) => (
       <Pricing />
       <TechLove />
       <Contact />
-      <CandyDispenser />
       <Footer />
     </div>
   </Layout>
