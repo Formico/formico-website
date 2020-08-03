@@ -7,7 +7,6 @@ import './index.scss'
 const Splash = ({ data }) => {
   return (
   <div className="splash">
-    <img alt="" className="logo" src="/logo/formico-logo.svg" />
     <h1 className="tagline">You've Found Your Dev Team</h1>
     <h1 className="biline">We help startups turn ideas into products.</h1>
     <div className="buttons">
