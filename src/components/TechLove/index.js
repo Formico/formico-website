@@ -1,7 +1,5 @@
 import React from 'react'
 
-import FancyAccents from '../FancyAccents';
-
 import './index.scss'
 
 const logos = [
@@ -43,7 +41,6 @@ const logos = [
 
 const TechLove = () => (
   <div className="tech-love">
-    <FancyAccents />
     <div className="content">
       <h2 className="title">We build technology solutions you'll love.</h2>
       <div className="logos">

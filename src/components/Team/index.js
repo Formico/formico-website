@@ -1,7 +1,6 @@
 import React from 'react'
 
 import CandyDispenser from '../CandyDispenser';
-import FancyAccents from '../FancyAccents';
 import TeamMember from './TeamMember';
 
 import './index.scss'
@@ -60,7 +59,6 @@ const team = [
 
 const Team = () => (
   <div className="team">
-    <FancyAccents />
     <h2 className="team-title">Meet your team.</h2>
     <div className="team-members">
       { team }
