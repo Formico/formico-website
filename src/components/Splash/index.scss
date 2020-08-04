@@ -6,40 +6,29 @@
 	@include transform(translate3d(0,0,0));
 	flex-direction: column;
 	align-items: left;
-	text-align: center;
+	text-align: left;
 	width: 100%;
-	padding: 0 24px;
+  @include page-padding;
 
-	height: 550px;
-
-	@include breakpoint(sm) {
-    padding: 0 64px;
-		height: 500px;
-	}
+	height: 100vh;
 
 	.logo {
 		margin-top: 64px;
 		height: 64px;
 	}
 
-	h1.tagline, h1.biline {
+	h1.tagline {
 		color: $white;
 		font-weight: normal;
 		display: flex;
 		flex-direction: row;
 		font-family: $font-logo;
-	}
-
-	h1.tagline {
 		font-weight: bold;
 		margin-top: 24px;
-		font-size: 32px;
+		font-size: 82px;
+    max-width: 600px;
 	}
 
-	h1.biline {
-		font-weight: normal;
-		font-size: 24px;
-	}
 
 	.buttons {
 		margin-top: 32px;
