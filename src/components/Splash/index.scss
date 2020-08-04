@@ -17,17 +17,21 @@
 		height: 64px;
 	}
 
-	h1.tagline {
+	h1.tagline, h2.biline {
 		color: $white;
 		font-weight: normal;
-		display: flex;
-		flex-direction: row;
 		font-family: $font-logo;
 		font-weight: bold;
-		margin-top: 24px;
+		margin: 0px;
 		font-size: 82px;
     max-width: 600px;
 	}
+
+  h2.biline {
+    margin: 12px;
+    font-size: 24px;
+    font-family: $font-body;
+  }
 
 
 	.buttons {
