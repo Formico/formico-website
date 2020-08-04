@@ -1,39 +1,51 @@
 @import '../../common/common.scss';
 
+$line-height: 2px;
+
 .button-cta {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-family: $font-body;
-	font-weight: bold;
-	text-decoration: none;
-	border-radius: 6px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 
-	font-size: 24px;
-	height: 52px;
-	padding: 0 32px;
-
-	border: 1px solid $logo-green;
-
-	@include transition(all .25s);
-
-	&.primary {
+  .arrow-circle {
 		background: $logo-green;
 		color: $eggplant;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 12px;
 
-		&:hover {
-			border: 1px dashed $eggplant;
-			@include transform(translateY(-6px));
-		}
-	}
+    .arrow {
+      width: 24px;
+      margin-top: 4px;
+    }
+  }
 
-	&.secondary {
-		background: $eggplant;
-		color: $logo-green;
+  .emphasized-text {
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: $font-body;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 24px;
+      color: $white;
+      margin: 0;
+    }
 
-		&:hover {
-			border: 1px dashed $logo-green;
-			@include transform(translateY(-6px));
-		}
-	}	
+    .expando {
+      @include transition(all .25s);
+      background: $logo-green;
+      height: 2px;
+      width: 0px;
+    }
+  }
+
+  &:hover {
+    .expando {
+      width: 100%;
+    }
+  }
 }

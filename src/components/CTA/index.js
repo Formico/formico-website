@@ -14,7 +14,13 @@ export default class CTA extends Component {
       <a
         className={ `button-cta ${!type || type === 'primary' ? 'primary' : 'secondary'}` }
         href={ link }>
-          { text }
+        <div className="arrow-circle">
+          <img alt="" className="arrow" src="/icon/arrow.svg" />
+        </div>
+        <div className="emphasized-text">
+          <p>{ text }</p>
+          <div className="expando" />
+        </div>
       </a>
     );
   }
