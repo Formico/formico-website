@@ -11,6 +11,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 
+  transform: rotate(45deg);
+
 	.fancy-left, .fancy-right {
 		height: 100%;
 		width: 20%;
