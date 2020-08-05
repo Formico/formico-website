@@ -1,6 +1,7 @@
 @import '../../common/common.scss';
 
 .fancy-background {
+  z-index: 0;
 	position: absolute;
 	top: -45%;
 	right: -15%;

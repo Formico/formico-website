@@ -20,7 +20,6 @@ const IndexPage = ({ ctaUrl }) => (
       <CaseStudies />
       <Team />
       <Process />
-      <TechLove />
       <Contact />
       <Footer />
     </div>
