@@ -1,6 +1,5 @@
 import React from 'react'
 
-import CandyDispenser from '../CandyDispenser';
 import TeamMember from './TeamMember';
 
 import './index.scss'
@@ -63,7 +62,6 @@ const Team = () => (
     <div className="team-members">
       { team }
     </div>
-    <CandyDispenser />
   </div>
 )
 
