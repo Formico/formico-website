@@ -7,11 +7,11 @@ import './index.scss'
 
 const quotes = [
   {
-    text: "They did a really good job. Just the best really. Highly Reccomend. Yada yda yda. They did a really good job. Just the best really. Highly Reccomend.",
+    text: "Great work. Implemented features, fixed bugs, and went above and beyond to polish user experience and suggest business-level improvements.",
     image: "",
-    person: "Tony Baloney",
-    title: "CTO",
-    company: "Google",
+    person: "Andrew Badr",
+    title: "CEO",
+    company: "Mixily",
   },
   {
     text: "Wow. Can't believe how amazing and yada yada they were so good",

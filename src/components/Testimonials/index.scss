@@ -1,10 +1,7 @@
-@import '../../common/animations.scss';
-@import '../../common/breakpoints.scss';
-@import '../../common/colors.scss';
-@import '../../common/fonts.scss';
+@import '../../common/common.scss';
 
 .testimonials {
-	background: $white;
+  color: $white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -12,7 +9,6 @@
 	height: 100%;
 
 	h1 {
-		color: $eggplant;
 		font-weight: normal;
 		display: flex;
 		flex-direction: row;
