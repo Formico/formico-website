@@ -8,9 +8,11 @@
 	align-items: left;
 	text-align: left;
 	width: 100%;
-  @include page-padding;
+	height: 80vh;
 
-	height: 100vh;
+  .splash-inner {
+    @include page-padding;
+  }
 
 	.logo {
 		margin-top: 64px;
@@ -32,7 +34,6 @@
     font-size: 24px;
     font-family: $font-body;
   }
-
 
 	.buttons {
 		margin-top: 32px;
@@ -56,4 +57,11 @@
 			}
 		}
 	}
+  .wavy-border {
+    position: absolute;
+    bottom: -11px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
 }
