@@ -21,8 +21,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-helmet": "^5.2.1",
-    "react-svg": "^4.1.1",
-    "react-typing-animation": "^1.6.2"
+    "react-svg": "^4.1.1"
   },
   "keywords": [
     "gatsby"
