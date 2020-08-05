@@ -18,8 +18,6 @@ const IndexPage = ({ ctaUrl }) => (
       <Header />
       <Splash ctaUrl={ ctaUrl }/>
       <CaseStudies />
-      <Team />
-      <Process />
       <Contact />
       <Footer />
     </div>
