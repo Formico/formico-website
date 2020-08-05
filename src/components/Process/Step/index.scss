@@ -6,7 +6,7 @@
 	.icon {
 		width: 100%;
 		margin: auto;
-		fill: $logo-green;
+		fill: $white;
 		text-align: center;
 		svg {
 			width: 84px;
@@ -19,14 +19,12 @@
 		align-items: center;
 		h2.header {
 			background: none;
-			color: $logo-green;
 			font-size: $font-size-p;
 			font-family: $font-body;
 			font-weight: bold;
 			margin: 24px 0;
 		}
 		p.description {
-			color: $logo-green;
 			font-size: $font-size-p;
 			font-family: $font-body;
 			line-height: $line-height;
