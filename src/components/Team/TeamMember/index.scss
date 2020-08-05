@@ -16,6 +16,7 @@
 		margin: auto;
 		fill: $eggplant;
 		text-align: center;
+    border-radius: 6px;
 	}
 	.text {
 		display: flex;
@@ -23,14 +24,12 @@
 		align-items: flex-start;
 		h2.name {
 			background: none;
-			color: $eggplant;
 			font-size: $font-size-p;
 			font-family: $font-body;
 			font-weight: bold;
 			margin-bottom: 0;
 		}
 		p.roles {
-			color: $eggplant;
 			font-size: 14px;
 			font-family: $font-body;
 			line-height: $line-height;

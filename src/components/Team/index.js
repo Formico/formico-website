@@ -59,7 +59,7 @@ const team = [
 
 const Team = () => (
   <div className="team">
-    <h2 className="team-title">Meet your team.</h2>
+    <h2 className="team-title">Meet your dream team.</h2>
     <div className="team-members">
       { team }
     </div>

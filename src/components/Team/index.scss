@@ -1,7 +1,7 @@
 @import '../../common/common.scss';
 
 .team {
-	background: $white;
+  color: $white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -21,7 +21,6 @@
 	}
 
 	h2.team-title {
-		color: $eggplant;
 		font-weight: normal;
 		display: flex;
 		flex-direction: row;
