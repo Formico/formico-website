@@ -4,7 +4,7 @@ import './index.scss'
 
 class FancyBackground extends React.Component {
 
-  createColumns = ({ numCols=6, numCells=50 }) => {
+  createColumns = ({ numCols=6, numCells=30 }) => {
     let columns = [];
     const cellTypes = ['filled', 'unfilled'];
 
@@ -27,12 +27,7 @@ class FancyBackground extends React.Component {
 
     return (
       <div className="fancy-background">
-        <div className="fancy-left">
-          { this.createColumns({ numCols, numCells }) }
-        </div>
-        <div className="fancy-right">
-          { this.createColumns({ numCols, numCells }) }
-        </div>
+        { this.createColumns({ numCols, numCells }) }
       </div>
     )
   }

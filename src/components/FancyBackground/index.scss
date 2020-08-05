@@ -2,31 +2,22 @@
 
 .fancy-background {
 	position: absolute;
-	top: -100%;
-	left: 0;
+	top: -45%;
+	right: -15%;
 	height: 200%;
 	width: 100%;
+  transform: rotate(55deg);
 
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 
-  transform: rotate(55deg);
 
-	.fancy-left, .fancy-right {
-		height: 100%;
-		width: 20%;
+  height: 100%;
+  width: 20%;
 
-		display: flex;
-	}
-
-	.fancy-left {
-		flex-direction: row;
-	}
-
-	.fancy-right {
-		flex-direction: row-reverse;
-	}
+  display: flex;
+  flex-direction: row-reverse;
 
 	@include keyframes(slide) {
 		0% {
