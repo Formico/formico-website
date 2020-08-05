@@ -6,7 +6,7 @@ import Splash from '../components/Splash';
 import Team from '../components/Team';
 import Process from '../components/Process';
 import TechLove from '../components/TechLove';
-import Testimonials from '../components/Testimonials';
+import CaseStudies from '../components/CaseStudies';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Layout from '../layouts';
@@ -17,7 +17,7 @@ const IndexPage = ({ ctaUrl }) => (
       <FancyBackground />
       <Header />
       <Splash ctaUrl={ ctaUrl }/>
-      <Testimonials />
+      <CaseStudies />
       <Team />
       <Process />
       <TechLove />
