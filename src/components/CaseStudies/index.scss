@@ -1,15 +1,15 @@
 @import '../../common/common.scss';
 
+
 .caseStudies {
-  width: 100%;
   color: $white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
   @include page-padding;
 
+
   .project {
-    width: 100%;
     margin-top: 84px;
     z-index: 10; // Make sure fancy background goes underneath
     display: flex;
@@ -18,16 +18,22 @@
 
   .project-description {
     display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+
+
+    @include breakpoint(md) {
+      flex-direction: row;
+    }
 
     .preview {
-      height: 400px;
-      @include box-shadow(-12px 12px 0px 0px rgba(0,0,0,0.75));
+      img {
+        @include box-shadow(-12px 12px 0px 0px rgba(0,0,0,0.75));
+      }
     }
 
     .overview {
-      display: none;
+      display: block;
+      width: 100%;
 
       p {
         font-family: $font-body;
@@ -35,8 +41,9 @@
         line-height: $line-height;
       }
 
-      @include breakpoint(xs) {
-        display: block;
+      @include breakpoint(md) {
+        width: 35%;
+        min-width: 400px;
         margin-left: 48px;
       }
     }
@@ -75,27 +82,7 @@
 		margin-top: 48px;
 	}
 
-	.quotes {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 96px;
-
-		@include breakpoint(sm) {
-			flex-direction: row;
-			justify-content: space-around;
-			width: 95%;
-			margin: 72px 24px 96px 24px;
-		}
-
-		@include breakpoint(md) {
-			width: 85%;
-		}
-
-		.quote {
-			margin-top: 60px;
-			@include breakpoint(sm) {
-				margin: 0;
-			}
-		}
-	}
+  .quote {
+    margin-left: auto; 
+  }
 }

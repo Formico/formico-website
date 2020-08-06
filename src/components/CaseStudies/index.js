@@ -53,20 +53,23 @@ const caseStudies = [
   <div className="project" key={idx}>
     <h3>{ project.project }</h3>
     <div className="project-description">
-      <img className="preview"
-        alt={`Screenshot of ${project.project}`}
-        src={`${routes.IMG}/${project.image}`}
-      />
+      <div className="preview">
+        <img
+          alt={`Screenshot of ${project.project}`}
+          src={`${routes.IMG}/${project.image}`}
+        />
+      </div>
       <div className="overview">
         <h4>Overview:</h4>
         <p>{project.overview}</p>
-        { project.quote && 
+        { project.quote ?
           <Quote
             text={ project.quote.text }
             image={ project.quote.image }
             person={ project.quote.person }
             title={ project.quote.title }
             company={ project.quote.company } />
+          : <div styles={{width: '360px'}} />
         }
       </div>
     </div>
