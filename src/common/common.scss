@@ -102,7 +102,11 @@
 }
 
 @mixin page-padding() {
-  padding: 24px 64px;
+  padding: 24px;
+
+  @include breakpoint(xs) {
+    padding: 24px 64px;
+  }
 
   @include breakpoint(sm) {
     padding: 48px 128px;

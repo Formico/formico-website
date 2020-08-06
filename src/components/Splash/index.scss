@@ -25,14 +25,25 @@
 		font-family: $font-logo;
 		font-weight: bold;
 		margin: 0px;
-		font-size: 82px;
     max-width: 600px;
 	}
 
+  h1 {
+    font-size: 48px;
+
+    @include breakpoint(sm) {
+      font-size: 82px;
+    }
+  }
+
   h2.biline {
-    margin: 12px;
+    margin-top: 12px;
     font-size: 24px;
     font-family: $font-body;
+
+    @include breakpoint(sm) {
+      margin-left: 12px;
+    }
   }
 
 	.buttons {

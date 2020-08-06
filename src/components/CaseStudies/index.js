@@ -78,7 +78,7 @@ const caseStudies = [
 
 const CaseStudies = () => (
   <div className="caseStudies">
-    <h2>{"Here's what we've been building lately..."}</h2>
+    <h2 className="caseStudies-header">{"Here's what we've been building lately..."}</h2>
     { caseStudies }
   </div>
 )

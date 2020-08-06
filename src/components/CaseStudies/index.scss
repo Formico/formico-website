@@ -50,39 +50,22 @@
     }
   }
 
-	h1 {
+	h2.caseStudies-header {
+    margin-bottom: 0px;
 		font-weight: normal;
 		display: flex;
 		flex-direction: row;
 
-		font-size: 48px;
+		font-size: 24px;
+    width: 80%;
+    text-align: center;
 
-		@include breakpoint(xxs) {
+		@include breakpoint(sm) {
+      width: auto;
 			font-size: $font-size-h1;
 		}
 	}
 	
-	h1.hero {
-		display: none;
-
-		@include breakpoint(sm) {
-			display: block;
-		}
-
-		margin-top: 72px;
-	}
-
-	h1.mobile {
-		display: block;
-
-		@include breakpoint(sm) {
-			display: none;
-		}
-
-		margin-left: 24px;
-		margin-top: 48px;
-	}
-
   .quote {
     margin-left: auto; 
   }
