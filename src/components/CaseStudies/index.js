@@ -23,7 +23,7 @@ const caseStudies = [
   {
     project: "ContigoU",
     image: "/projects/contigou.png",
-    overview: "ContigoU connects patients to skilled nursing facilities in California. We developed the first version of their platform from the ground up, conducted user interviews, created the initial product specification, and implemented the prpoject from top to bottom.",
+    overview: "ContigoU connects patients to skilled nursing facilities in California. We developed the first version of their platform from the ground up, conducted user interviews, created the initial product specification, and implemented the project from top to bottom.",
     quote: {
       text: "Why can't everyone communicate between tech and product the way you do?",
       image: "",
