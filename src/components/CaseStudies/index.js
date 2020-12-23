@@ -47,7 +47,7 @@ const caseStudies = [
   {
     project: "Remine",
     image: "/projects/remine.png",
-    overview: "Remine handles the backend for the modern real-estate delevoper. We took on a greenfield project to build out their internal messaging tool, allowing agents to reliable connect in real time using a sleek modern interface. We used React and react-native to build out both a modern responsive website and a cross-platform mobile app.",
+    overview: "Remine handles the backend for the modern real-estate delevoper. We took on a greenfield project to build out their internal messaging tool, allowing agents to reliably connect in real time using a sleek modern interface. We used React and react-native to build out both a modern responsive website and a cross-platform mobile app.",
   }
 ].map((project, idx) => (
   <div className="project" key={idx}>
